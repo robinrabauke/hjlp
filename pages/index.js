@@ -8,6 +8,8 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <div className='text-5xl'>HJLP</div>
+
     </div>
   )
 }
