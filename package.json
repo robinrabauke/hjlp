@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "daisyui": "^1.14.2",
     "graphql": "^15.5.3",
     "graphql-request": "^3.5.0",
     "next": "latest",
@@ -14,7 +15,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
     "postcss": "^8.3.5",
+    "prettier": "^2.4.1",
     "standard": "^16.0.3",
     "tailwindcss": "^2.2.4"
   }
