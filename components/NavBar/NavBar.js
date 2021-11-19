@@ -1,8 +1,9 @@
 import React from "react";
 
 export const NavBar = () => (
-  <div className="flex flex-col items-center  min-h-screen py-2 drop-shadow-2xl">
-    <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+  //   <div className="flex flex-col items-center p-3 drop-shadow-2xl fixed">
+  <div className=" px-20 py-6 fixed transform-x inset-x-0 z-50">
+    <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box drop-shadow-2xl">
       <div class="px-2 mx-2 navbar-start">
         <span class="text-lg font-bold">hjälp</span>
       </div>

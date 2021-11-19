@@ -1,5 +1,4 @@
 import React from "react";
-import { NavBar } from "../NavBar/NavBar";
 
 export const HeroIntro = ({ heroSection }) => (
   <div class="hero min-h-screen ">
@@ -8,9 +7,7 @@ export const HeroIntro = ({ heroSection }) => (
       style={{
         backgroundImage: `url(${heroSection.heroImage.url})`,
       }}
-    >
-      <NavBar />
-    </div>
+    ></div>
 
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-md">

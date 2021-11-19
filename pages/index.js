@@ -4,11 +4,12 @@ import { GraphQLClient, gql } from "graphql-request";
 
 import { HeroIntro } from "../components/HeroIntro/HeroIntro";
 import { Benefits } from "../components/Benefits/Benefits";
-import { assertValidExecutionArguments } from "graphql/execution/execute";
+import { NavBar } from "../components/NavBar/NavBar";
 
 export default function Home({ heroSection, benefitsList }) {
   return (
     <div>
+      <NavBar />
       <HeroIntro heroSection={heroSection} />
       <Benefits data={benefitsList.benefitsLists} />
       <Footer />
